@@ -3,17 +3,45 @@ layout: essay
 type: essay
 title: "Igniting the fire"
 # All dates must be YYYY-MM-DD format!
-date: 2015-08-26
+date: 2025-09-03
 published: true
 labels:
   - Software Engineering
+  - Programming Languages
   - Learning
 ---
 
 <img width="100px" class="rounded float-start pe-4" src="../img/igniting/paintbrushes.jpg">
 
-Ever since I first grasped a paintbrush, I’ve always been eager to learn about design. Design is such a complex concept. For example, when looking at abstract art, its meaning can be completely different for different people. It motivates a person to think thoughtfully and has the potential to submerge them in a sea of imagination. It’s that special relationship between the viewer and the art that makes something as technical as software engineering interesting to me.
+###### Learning to Learn
+I am an optimist. I strongly believe that all things can be learned, yet I sometimes find myself battling the learning curve when introduced to something new.This trivial feeling of ambition and genuine curiosity to the topic is often juxtaposed in my mind with how far I am from being even skilled or building proper expertise. It heightens the pressure that I need to produce some feeling of successful results; the feeling that time is against you, and the intrusive depreciation that maybe I just don’t have the aptitude to pick this up. 
 
-I never used to think that design and technology went hand in hand.  Thus, learning about software engineering and the role of design has been incredibly interesting to me. Design, implementation, and management are just some of the many things I wish to learn more about. Good art, in a way, makes a person question it. They become joined in the idea of visualization – where captivation meets inspiration.
+How wrong I am to be so discouraged!
+I have come to realize that the feeling that you are good at what you do comes not from the amount of knowledge you have memorized, or the product you generated, but from intuition.
+Intuition does not come overnight. Intuition is not memorized. Intuition is not really “taught.” 
+It is learned through experience, which takes time, failure, and the willingness to reflect. The opportunities to purely just experience are so evident in the practice, discussion, and many homeworks in offered in the course. I have grown to look forward to these opportunities, but that goes without saying: I wasn’t always like that. Far from it. 
 
-I am now starting to take a Software Engineering class. I hope to learn a lot through the course, but I know it will be just the beginning of my journey. By the time I’m done with it, I hope I’ve learned enough to take the next step in my life as a developer. But until then, my fire will keep on burning.
+No Couch Coders
+When I first read the assignment instructions, I was for a moment speechless. ‘This class is an entirely different breed. I have to turn in something essentially everyday and they are like mini-projects. E07a: 144 problems?! I have other classes, jobs, and I'm not really great or fast at coding. Am I going to survive here?’
+
+And then I said outloud, “this is athletic software engineering. Duh.” Athletes need to train everyday so that their body can keep up, continuously get stronger, and practice to build the muscle memory necessary to excel in their sport. 
+This is exactly the way you learn by doing, and you don’t build muscle overnight. 
+I won’t doubt for a second why many things may be due in a single week. 
+It’s not a due date, it’s a program. A regimen. 
+When I finish this assignment, my intuition is building, and the fears that I will be clueless at a set of instructions, get smaller and smaller. That feeling on its own is wholeheartedly rewarding. And every step of the way, I remind myself that each moment of effort and struggle contributes to another building block piled on. 
+
+Simply Get Started
+In the first 113 problems, I found myself speedily and instinctively answering problem after problem. I knew the supplemented readings in each problem beforehand, I could recall the connections it made to algorithms, data structures, and history of computing. And when I had questions for AI, my questions have become much more advanced and connected to many of these extended concepts. The more I saw just how precious foundations I had already integrated with myself over time, and experienced how much I am capable of doing, supporting how much I can continue to progress my learning. 
+It is all tangible. 
+
+Through these daily exercises and constant exposure, interaction, and self-directed critical thought, I feel I have been growing my intuition prolifically. 
+
+Feel-Good Coding
+For a long time I have felt the frustration or discomfort or feeling of limiting the way that I visualize and plan an algorithm in my head, because I constantly have to recall certain syntax or the ways to adhere to the Java structure. While JavaScript is to a different use case than Java, I still find that the lingering anxiousness that I will see red the very moment I hit Ctrl+Enter. 
+
+I had never heard of ES6 and Typescript prior to this course. But in that sense of preference, I really enjoyed how TypeScript gave some room to breathe. Since a lot of the syntax errors are caught earlier and I can notice them right away and find the exact justification right away, I can smoothly still continue my flow of thought, and simultaneously track the habits and errors that I tend to make, the moment they are made. 
+
+It feels more productive, it allows me to continue my flow, and in a way, its reliability gives me confidence that the things I envision in my mind and the ability to build that in the code are able to align. I can predict more on what the outputs should be. This reassuredness has somehow swiftly possessed my mind and my hands to get typing right away. Whereas, in the past, I may have overly prepared thought on building an algorithm, then slowly and unsurely typed it out. 
+
+Sometimes I Take Small Steps, ICS-314 is Giving Me a Mountain
+Through my growing appreciation for the process of doing and struggling to become an expert, the higher value I put in building intuition, and the opportunities I have in this class to cultivate that, I feel I am putting effort in the right direction and building the habits and discipline to get where I want to be. 
