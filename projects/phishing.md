@@ -9,7 +9,7 @@ labels:
   - Machine Learning
   - Algorithms
   - Performance Analysis
-  - Phishing Classification
+  - Phishing & Malware
 summary: "A study I did while taking machine learning at Yonsei University, which compares the performances metrics of models to classify phishing websites when trained with different algorithms."
 ---
 
