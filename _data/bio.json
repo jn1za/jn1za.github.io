@@ -24,11 +24,11 @@
     {
       "name": "Languages and Frameworks",
       "keywords": [ "C", "C++", "Java", "Java", "JavaScript", "TypeScript", "Python", "Linux"]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "Windows", "Mint/Kali/Parrot", "Git/GitHub"]
     }
-    // ,{
-    //   "name": "Toolsets/OS",
-    //   "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
-    // }
   ],
   "education": [
     {
