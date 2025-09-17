@@ -2,14 +2,15 @@
 layout: project
 type: project
 image: img/micromouse/micromouse-square.jpg
-title: "Piano Compisition for Student Performances"
+title: "Piano Composition for Student Performance"
 date: 2024
 published: true
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: "My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition."
+  - Music
+  - Piano
+  - Performance
+  - Teaching
+summary: "Composed original music for piano students and accompanied piano for vocal students at live performances."
 ---
 
 <div class="text-center p-4">
