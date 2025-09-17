@@ -10,7 +10,7 @@ labels:
   - Career Development
   - Video & Film
   - Interview
-summary: "A text adventure game that I developed for ICS 313."
+summary: "A video publication project to empower high school students by showcasing the jounrey's of Leilehua High School alumni, and the diverse paths to success of these individuals who once walked the same halls."
 ---
 
 <img class="img-fluid" src="../img/cotton/cotton-header.png">
