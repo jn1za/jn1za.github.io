@@ -11,7 +11,7 @@ labels:
   - Performance
   - Teaching
 summary: "Composed original music for piano students to preform, allowing their imagination for their desired sound to become a real piece, and accompanied vocal students and student bands at live music events."
----
+--- 
 
 <div class="text-center p-4">
   <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >

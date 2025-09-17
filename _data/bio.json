@@ -10,7 +10,7 @@
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "jn1za", "url": "http://github.com/jn1za" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/joan-zara-99816928b/" }
+      { "network": "linkedin", "username": "joanzara", "url": "http://linkedin.com/in/joan-zara-99816928b/" }
     ]
   },
   "interests": [
@@ -23,19 +23,19 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
-    },
-    {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "C", "C++", "Java", "Java", "JavaScript", "TypeScript", "Python", "Linux"]
     }
+    // ,{
+    //   "name": "Toolsets/OS",
+    //   "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+    // }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Science (expected Spring, 2018)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2023-08-21",
       "endDate": "Present",
       "courses": [
       ]
@@ -43,15 +43,19 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Hawaiian Electric Company",
+      "position": "Cybersecurity Analyst Intern",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2023-06-30",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "IT Student Assistant in the Network Operations & Security Center",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Monitor and manage LAN devices and network activity using security tools, and actioning incident response on suspicious or alerted activity.",
+        "Create and present daily reports for the CISO regarding projects, intelligence, investigations, and monitor statistics.",
+        "Research and report on threat intelligence and hunt for indicators of compromise.",
+        "Collaborate with the Risk Management and system owners to mitigate relevant vulnerabilities and confirm the status of potentially vulnerable systems.",
+        "Assist with development, testing, and integration of new security solutions and collaborating with OT, Telecom, and Network Infrastructure teams to maximize 24/7 network visibility.",
+        "Query and develop apps and dashboards in the SIEM for tailored visibility of security events."
       ]
     },
     {
