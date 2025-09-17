@@ -6,8 +6,10 @@ title: "Alumni Inspiring & Motivating (AIM)"
 date: 2023
 published: true
 labels:
-  - Lisp
-  - GitHub
+  - Student Outreach
+  - Career Development
+  - Video & Film
+  - Interview
 summary: "A text adventure game that I developed for ICS 313."
 ---
 
