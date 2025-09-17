@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Joan Zara",
-    "label": "Student",
+    "label": "Student | Cybersecurity Intern | Piano Instructor",
     "picture": "img/joan-zara-portrait.jpg",
     "email": "zarajc@hawaii.edu",
     "phone": "808-796-9366",
@@ -28,6 +28,10 @@
     {
       "name": "Toolsets/OS",
       "keywords": [ "Windows", "Mint/Kali/Parrot", "Git/GitHub"]
+    },
+    {
+      "name": "Certifications",
+      "keywords": ["CompTIA Security+"]
     }
   ],
   "education": [
