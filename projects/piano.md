@@ -10,7 +10,7 @@ labels:
   - Piano
   - Performance
   - Teaching
-summary: "Composed original music for piano students and accompanied piano for vocal students at live performances."
+summary: "Composed original music for piano students to preform, allowing their imagination for their desired sound to become a real piece, and accompanied vocal students and student bands at live music events."
 ---
 
 <div class="text-center p-4">
