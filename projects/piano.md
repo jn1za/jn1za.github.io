@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/piano-thumbnail.jpg
 title: "Piano Composition for Student Performance"
 date: 2024
 published: true
