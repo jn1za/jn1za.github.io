@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "Smart Questions Build Smart Communities"
 # All dates must be YYYY-MM-DD format!
 date: 2025-09-14
 published: true
