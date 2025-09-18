@@ -20,7 +20,7 @@ A team of Class of 2023 High School seniors. We bonded together to invite our sc
 This video [yes, that's my voice!] declares our mission was the first video to release prior to each individual interview's release. 
 
 ## Project A.I.M.
-### Leilehua High School Seniors of 2023
+###### Leilehua High School Seniors of 2023
 
 At some point before we graduate, we need to create serious future plans. That means deciding whether you’re going to college or not, which colleges to apply for, and what career to pursue. All of this is so that eventually, we can get a good job and build a fulfilling life.
 
