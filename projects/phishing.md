@@ -35,7 +35,7 @@ In both of the datasets, the number of samples corresponds to the number of webs
 <div>
   <img class="img-fluid" src="../img/dataset2(1).png" style="display: inline-block; width: 30%; margin-right: 1%;">
   <img class="img-fluid" src="../img/dataset2(2).png" style="display: inline-block; width: 30%; margin-right: 1%;">
-  <img class="img-fluid" src="../img/dataset2(3).png" style="display: inline-block; width: 30%;">
+  <img class="img-fluid" src="../img/dataset2(3).png" style="display: inline-block; width: 38%;">
 </div>
 
 ## Results & Discussion
