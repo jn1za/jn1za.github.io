@@ -13,11 +13,7 @@ labels:
 summary: "A study I did while taking machine learning at Yonsei University, which compares the performances metrics of models to classify phishing websites when trained with different algorithms."
 ---
 
-<div>
-  <img class="img-fluid" src="../img/dataset2(1)" style="display: inline-block; width: 30%; margin-right: 1%;">
-  <img class="img-fluid" src="../img/dataset2(2)" style="display: inline-block; width: 30%; margin-right: 1%;">
-  <img class="img-fluid" src="../img/dataset2(3)" style="display: inline-block; width: 30%;">
-</div>
+
 
 ## Introduction 
 One person is all it takes for a business to collapse under the hand of cyber attack. The most common medium of this is phishing. To protect the company’s confidentiality, integrity, and accessibility of data, cyber defense tools can be implemented into the network and device infrastructure. These can serve many purposes, such as an access gateway, web proxy, or detection system, to name a few. Everyday, the average individual, consumer, and employee alike browse the internet and generate endless data transactions on the worldwide web. To heed off the most common method attack of human exploitation, such tools also exist to classify legitimate, suspicious, and phishing websites through the use of algorithmic and machine learning. 
@@ -35,6 +31,12 @@ Supplementary Article: [“An Assessment of Features Related to Phishing Website
 Extensive Feature Details: [“Phishing Websites Features”](https://docs.google.com/document/d/18UR797f4JmD1AYxEy-Os7mQvf4jvhKo2/edit)
 
 In both of the datasets, the number of samples corresponds to the number of websites that were analyzed with a malware analyzer. For each specific attribute (such as having IP address, web traffic, pop up window, etc.), the analyzer assigns that website’s attribute an integer, where -1 means phishing, 0 means suspicious (either phishing or legitimate), and 1 means legitimate. For each website, the overall disposition is given the label “Result” and also uses the same integer assignment classification system. We will be comparing the performance metrics of our classification methods and report both the baseline models’ and optimized models’ accuracy, precision, recall, and F1-score statistics, as well as the gain in the models’ performance metrics after K-fold cross validation optimization. 
+
+<div>
+  <img class="img-fluid" src="../img/dataset2(1)" style="display: inline-block; width: 30%; margin-right: 1%;">
+  <img class="img-fluid" src="../img/dataset2(2)" style="display: inline-block; width: 30%; margin-right: 1%;">
+  <img class="img-fluid" src="../img/dataset2(3)" style="display: inline-block; width: 30%;">
+</div>
 
 ## Results & Discussion
 Overall, Dataset 1 models showed a moderate to accurate performance in overall metrics, while Dataset 2 shows significantly higher scores across the board. Among the models trained with Dataset 1, the optimized SVM outperformed all other models in every scoring. In this dataset, SVM also had the greatest improvement in accuracy by 0.0258 from the optimization, whereas KNN showed no improvement, and the decision tree decreased in accuracy by 0.0259. In the case of the Dataset 1 decision tree models, after optimizing, the model decreased in all metrics from its baseline model’s performance. Though GridSearchCV found the best hyperparameters for the decision tree, this decrease in performance may be attributed to some overfitting of the data, where the model learns the specific patterns in the training set, rather than generalizing underlying patterns in the test set. This highlights the importance of gathering metrics from a model’s baseline performance, and gauging if an optimization may even be an computationally and performance effective approach. 
