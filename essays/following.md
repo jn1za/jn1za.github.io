@@ -12,7 +12,7 @@ labels:
   - Cybersecurity
 ---
 
-<img width="400px" class="rounded float-start pe-4" src="jn1za/jn1za.github.io/img/uhm-ics-leilehua-career-visit.jpg">
+<img width="400px" class="rounded float-start pe-4" src="img/uhm-ics-leilehua-career-visit.jpg">
 
 ## First Fascination
 
