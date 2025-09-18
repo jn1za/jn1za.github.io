@@ -13,7 +13,7 @@ labels:
 summary: "A video publication project to empower high school students by showcasing the jounrey's of Leilehua High School alumni, and the diverse paths to success of these individuals who once walked the same halls."
 ---
 
-<img class="img-fluid" src="../img/aim.png">
+<iframe src="https://drive.google.com/file/d/1SqExuTSdFVU2QolmfyK0iF9dCIA74vCg/preview" width="640" height="480" allow="autoplay"></iframe>
 
 To give you a flavor of the game, here is an excerpt from one run:
 
