@@ -13,9 +13,11 @@ labels:
 summary: "A study I did while taking machine learning at Yonsei University, which compares the performances metrics of models to classify phishing websites when trained with different algorithms."
 ---
 
-<img class="img-fluid" src="../img/dataset2(1)">
-<img class="img-fluid" src="../img/dataset2(2)">
-<img class="img-fluid" src="../img/dataset2(3)">
+<div>
+  <img class="img-fluid" src="../img/dataset2(1)" style="display: inline-block; width: 30%; margin-right: 1%;">
+  <img class="img-fluid" src="../img/dataset2(2)" style="display: inline-block; width: 30%; margin-right: 1%;">
+  <img class="img-fluid" src="../img/dataset2(3)" style="display: inline-block; width: 30%;">
+</div>
 
 Vacay is a web application that I helped create as a team project in ICS 415, Springm 2015. The project helped me learn how to design and implement a responsive web site.
 
