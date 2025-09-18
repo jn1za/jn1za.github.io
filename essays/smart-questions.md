@@ -3,97 +3,38 @@ layout: essay
 type: essay
 title: "Smart Questions, Good Answers"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
-published: false
+date: 2025-09-14
+published: true
 labels:
   - Questions
   - Answers
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+<img width="300px" class="rounded float-start pe-4" src="img/stackoverflow-smart.png">
 
-## Is there such thing as a stupid question?
+## Smart Questions Are A Conduit For Learning 
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+They say you can become the kind of person you want to be by surrounding yourself with the right people. People who are the kind of person you want to become or represent yourself as. 
+As such, in this field of near infinite sharing of information, this has become a conduit for prompt, discussion, and overall fantastic learning opportunities. 
 
-## What’s a smart question?
+Practice makes perfect, but there’s also such a saying that perfect practice makes perfect. 
+To learn, we must ask questions. But to most effectively learn, the matter of your question and the intent to learn from it is what distinguishes smart questions from poor ones. 
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+## Boarding Your Train of Thought
+In light of the time I studied machine learning while abroad, I took to the machine learning forums on Stack Overflow as a plus to be more engaged with the topics in this community. 
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+In this question on [datatypes in dataframes](https://stackoverflow.com/questions/21018654/strings-in-a-dataframe-but-dtype-is-object/60748009#60748009), the poster provides their code and presents it along with the commentary on the context for which they expect the datatype to be. They clearly and concisely describe what their expectation was for their code, what theory that expectation is founded on, and what actions they are adding to their code that help to inform the explicit expectation. 
 
-```
-Q: python date of the previous month
+This is evident when poster expects to have a string datatype, explicitly converts the datatype, yet the conversion for some items are Objects rather than strings, then provides context about the pandas library and why their expectation is met with confusion. Addressing each portion like this allows commenters to understand where your current train of thought is, and they may even tailor some of their teachings to guide you in the right direction.
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
+I find it enlightening to see the types of conversations and methods of teaching others will share when smart questions like this are asked. Looking at the answers provided, user @HYRY provided an illustrative example to map out the concept behind the poster’s inquiry. 
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
+And in the next answer, the commenter @Ben further explains the concept @HYRY brought up, as if scaffolding off of the discussion of another. This user also provides highly detailed and annotated images and even animated graphics to build up on the other commenter’s illustration, and transform the collaborative explanation into a demonstration. Such efforts also lead me to be encouraged by the willingness for those more wise than I to share their knowledge and the kindness of their efforts, as well as the effects a smart question can do for any other passerby viewer. 
 
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
+## Help Others Help You!
 
-I have solved this trouble in bash with:
+The previous was an example of a smart question and how such a post can grow into a greater learning opportunity. In this question on [“how to find missing info,”](https://stackoverflow.com/questions/60262828/machine-learning-how-to-find-missing-info) the poster asks for help with an issue in their code. The poster does provide their code in text, yet we lack the context about the code besides the title of the post and the names of the variables. This prompts a potential commenter to have to ambiguously analyze these algorithms and try to assume where the poster’s train of thought is based on. Unfortunately, the “problem” is never quite defined, but the poster asks to have “someone tell me what is causing this problem.” Unlike the previous question, where we can interpret that the poster has some interpretation based on their understanding of the pandas library and may have done some research in advance to inform the smart question, this user does not see that an answer for a similar inquiry has already been posted somewhere, as indicated by annotation “This question already has answers here.” 
 
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
-```
-
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
-
-```
-A: datetime and the datetime.timedelta classes are your friend.
-
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
-
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
-
-## The foolproof way to get ignored.
-
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
-
-```
-Q: Facebook Desktop Notifier
-
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
-```
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
-
-## Conclusion
-
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+## A Smart Question is Active Learning In Progress
+Nobody likes to be confused, and yet the time we spend being confused can be the most profound in engaging our ability to think and learn. When we can ask a smart question, we allow ourselves to map out our confusion and allow others to address areas that can be answered. Unknowingly, we can help others who may have the same inquiry at the same time, and we can become better teachers to others who find themselves in the same position you once had questions for. 
