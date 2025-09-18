@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/vacay/vacay-square.png
+image: img/phish.jpg
 title: "Classifying Phishing Websites with Machine Learning"
 date: 2025
 published: true
