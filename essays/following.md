@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Following Fascinations"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-17
+date: 2025-09-17
 published: true
 labels:
   - Software Engineering
