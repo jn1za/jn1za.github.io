@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/aim.png
 title: "Alumni Inspiring & Motivating (AIM)"
 date: 2023
 published: true
