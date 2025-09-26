@@ -11,7 +11,7 @@ labels:
   - Practice
 ---
 
-<img width="450px" class="rounded float-start pe-4" src="../img/coding_standards_meme.png">
+<img width="500px" class="rounded float-start pe-4" src="../img/coding_standards_meme.png">
 
 ## Bigger Than the Coder
 
