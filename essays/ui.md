@@ -22,11 +22,9 @@ My first encounter with really looking over HTML was through experience in a SOC
 <div style="text-align: center;">
   <img class="img-fluid" src="../img/CISA-website.png" style="display: inline-block; width: 450px; margin-right: 1%; width: 485">
   <img class="img-fluid" src="../img/my-CISA-website.png" style="display: inline-block; width: 500px;">
-  <br>*Hmm… Try to guess! Which is the real CISA page?*
-  *(Answer key is in the devtools!)*<br>
+  <p>>*Hmm… Try to guess! Which is the real CISA page?*
+  *(Answer key is in the devtools!)*</p>
 </div>
-
-
 
 That assignment had used Bootstrap 5, and though it was initially a challenge to learn, the ease of use with bootstrap compared to raw HTML was considerable, and likely contributed greatly in the confidence I had gained in the ability to create a menu bar or grid of nav-links quickly and intuitively!
 
