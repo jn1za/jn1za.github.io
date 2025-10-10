@@ -22,7 +22,7 @@ My first encounter with really looking over HTML was through experience in a SOC
 <div style="text-align: center;">
   <img class="img-fluid" src="../img/CISA-website.png" style="display: inline-block; width: 450px; margin-right: 1%; height: 490">
   <img class="img-fluid" src="../img/my-CISA-website.png" style="display: inline-block; height: 500px;">
-  <p>>*Hmm… Try to guess! Which is the real CISA page?*
+  <p>*Hmm… Try to guess! Which is the real CISA page?*
   *(Answer key is in the devtools!)*</p>
 </div>
 
