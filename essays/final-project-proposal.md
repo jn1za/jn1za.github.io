@@ -1,8 +1,8 @@
 ---
 layout: essay
 type: essay
-title: Project":" Team UHP!
-date: 2025-11-04
+title: "Project: Team UHP!"
+date: 2025-11-03
 labels:
   - Software Engineering
   - Nextjs
