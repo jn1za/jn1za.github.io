@@ -15,10 +15,16 @@ labels:
 
 *The Solution:* **Team UHP!** is a platform for students to connect across areas of study by enabling them to upload project postings and recruit collaborators. Whether it's a class assignment or a passion project, students can find teammates with complementary skills and allow each contributor to play a meaningful role that aligns with their field of study. This medium of collaboration helps students to gain practical experience, build teamwork skills, and add completed projects to their resumes.
 ## Approach
-A site that lists: 
+Instead of networking across multiple platforms to recruit members for a project, a poster can create a site that lists:
 * Overview of the project
 * Tags that list the fields of knowledge for the project (positions/openings)
 * Contact email(s) for followup
+
+Students who visit the site can create a profile of their skills, interests for projects, and a link to their portfolio’s/Socials/Contacts.
+
+Students that upload their project postings can have a list of all projects under their profile details.
+
+Admins can monitor the site for inappropriate content and create new tags of skills, majors, and positions to recruit.
 
 ## Mockup Page Ideas
 * Landing page
