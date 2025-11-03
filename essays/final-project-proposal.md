@@ -18,7 +18,10 @@ labels:
 Instead of networking across multiple platforms to recruit members for a project, a poster can create a site that lists:
 * Overview of the project
 * Tags that list the fields of knowledge for the project (positions/openings)
+* Add Images to posting (optional)  
+* “Wizard” for creating listings
 * Contact email(s) for followup
+* The more project tags that match your skills, the higher it is in the listing. 
 
 Students who visit the site can create a profile of their skills, interests for projects, and a link to their portfolio’s/Socials/Contacts.
 
