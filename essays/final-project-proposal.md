@@ -14,6 +14,7 @@ labels:
 *The Problem:* Many college students want to build real-world experience and strengthen their resumes through hands-on projects. However, the scope and complexity of meaningful and large-scale projects may exceed their current technical skills or confidence. Such a gap makes it difficult for students to initiate or complete projects that truly showcase their abilities.
 
 *The Solution:* **Team UHP!** is a platform for students to connect across areas of study by enabling them to upload project postings and recruit collaborators. Whether it's a class assignment or a passion project, students can find teammates with complementary skills and allow each contributor to play a meaningful role that aligns with their field of study. This medium of collaboration helps students to gain practical experience, build teamwork skills, and add completed projects to their resumes.
+
 ## Approach
 Instead of networking across multiple platforms to recruit members for a project, a poster can create a site that lists:
 * Overview of the project
@@ -37,6 +38,7 @@ Admins can monitor the site for inappropriate content and create new tags of ski
 * Project page
 * Recommended projects page
 * About platform page / platform learning (“How To’s”) 
+* Admin Page
 
 ## Use Case Ideas
 * New user goes to the landing page, logs in, gets the home page, sets up their profile.
