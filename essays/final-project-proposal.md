@@ -10,14 +10,13 @@ labels:
 
 *Authors: [Matthew Matsumoto](https://matthewmatsumoto.github.io/),  [Joan Zara](https://jn1za.github.io),  [Jayden Francoise](https://jaydenfrn.github.io/),  [Raymond Acker](https://ackerrs.github.io),  [Jun Xiang Zeng](https://junoxzeng.github.io/)*
 
-<img width="420px" class="rounded float-start pe-4" src="../img/colab-clipart.jpg">
+<img width="380px" class="rounded float-start pe-4" src="../img/colab-clipart.jpg">
 
 ## Overview
 *The Problem:* Many college students want to build real-world experience and strengthen their resumes through hands-on projects. However, the scope and complexity of meaningful and large-scale projects may exceed their current technical skills or confidence. Such a gap makes it difficult for students to initiate or complete projects that truly showcase their abilities.
 
 *The Solution:* **Team UHP!** is a platform for students to connect across areas of study by enabling them to upload project postings and recruit collaborators. Whether it's a class assignment or a passion project, students can find teammates with complementary skills and allow each contributor to play a meaningful role that aligns with their field of study. This medium of collaboration helps students to gain practical experience, build teamwork skills, and add completed projects to their resumes.
 
-<p>
 ## Approach
 Instead of networking across multiple platforms to recruit members for a project, a poster can create a site that lists:
 * Overview of the project
@@ -55,4 +54,3 @@ Admins can monitor the site for inappropriate content and create new tags of ski
 * Divide between “interests” and “non-interests”
 * Weight classifieds based on parts filled out / specificity of tag (Python > Coding)
 * “LLM” or dictionary to find synonyms in searches
-</p>
