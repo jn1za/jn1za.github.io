@@ -15,7 +15,7 @@ summary: "A video publication project to empower high school students by showcas
 
 <iframe src="https://drive.google.com/file/d/1SqExuTSdFVU2QolmfyK0iF9dCIA74vCg/preview" width="640" height="480" allow="autoplay"></iframe>
 
-A team of Class of 2023 High School seniors. We bonded together to invite our school's very own alumni to share their stories with the current students of Leilhua High School. This video [yes, that's my voice!] declares our mission was the first video to release prior to each individual interview's release. 
+A team of Class of 2023 High School seniors. We bonded together to invite our school's very own alumni to share their stories with the current students of Leilehua High School. This video [yes, that's my voice!] declares our mission was the first video to release prior to each individual interview's release. 
 
 ## Project A.I.M.
 ###### Leilehua High School Seniors of 2023
