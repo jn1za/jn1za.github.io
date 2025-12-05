@@ -10,7 +10,9 @@ labels:
   - Design Patterns
 ---
 
-<img width="500px" class="rounded" src="..\img\swe-color-grading.png">
+<div style="text-align:center">
+  <img width="520px" class="rounded" src="../img/swe-color-grading.png">
+</div>
 <br>
 
 ## The Color Grading Experience
