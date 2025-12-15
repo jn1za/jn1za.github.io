@@ -41,7 +41,7 @@ I would also add that seeing the actual time effort go either below or above the
 
 Over the course of this project, my idea and practical understanding of project management was greatly enlightened. I experienced turning high level ideas into minute scopes of objectives, sketches of mockup pages into functional replicable schemes, and an overall objective to aid a community into a real and accessible application. This truly does not come without additive planning. It is now that I know, this planning portion to consider the hard efforts is justifiable to the efforts themselves, as the efforts in a connected whole will allow ease of a team’s coordination, ease on individual members’ workload, and a coherent composition of the team’s goals as a whole. 
 
-# Tracking Methods
+## Tracking Methods
 
 Initially, I had utilized the “started” and “ended” timestampable fields in GitHub’s project area, but then realized that it does not necessarily account for the in betweens of times not related to the project. Thus I had a personal, informal log off to track when I am online and offline for this project to composite the sum of those online hours. When an actual timer was not used, or I had missed a portion in my personal log, I estimated it by memory when the issue was completed, or at the earliest recollection.
 
