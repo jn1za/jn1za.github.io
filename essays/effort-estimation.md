@@ -16,7 +16,6 @@ labels:
     Effort Estimation & Tracking in Project: TeamUHp!
   </h3>
 </div>
-<br>
 
 <div style="text-align:center">
   <img width="800px" class="rounded" src="../img/team-uhp-effort-estimation-log.png">
