@@ -12,9 +12,9 @@ labels:
 ---
 
 <div style="text-align:center">
-  <h2>
+  <h3>
     Effort Estimation & Tracking in Project: TeamUHp!
-  </h2>
+  </h3>
 </div>
 
 <div style="text-align:center">
