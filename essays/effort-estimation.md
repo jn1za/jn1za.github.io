@@ -18,7 +18,7 @@ labels:
 </div>
 
 <div style="text-align:center">
-  <img width="600px" class="rounded" src="../img/team-uhp-effort-estimation-log.png">
+  <img width="800px" class="rounded" src="../img/team-uhp-effort-estimation-log.png">
 </div>
 <br>
 
