@@ -17,7 +17,7 @@ labels:
 </div>
 
 <div style="text-align:center">
-  <img width="800px" class="rounded" src="../img/AI-tutoring.jpeg">
+  <img width="750px" class="rounded" src="../img/AI-tutoring.jpeg">
 </div>
 <br>
 
