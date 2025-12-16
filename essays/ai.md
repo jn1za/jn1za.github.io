@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Tuning AI to Harmonize"
 # All dates must be YYYY-MM-DD format!
-date: 2025-12-14
+date: 2025-12-15
 published: true
 labels:
   - Learning
