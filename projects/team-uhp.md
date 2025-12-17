@@ -204,14 +204,12 @@ Nearing the finalization of the project, since I had been involved with a part o
     <img src="../img/team-uhp/m3-minor-fixes-1.png"
          style="height: 350px; width: 100%; object-fit: contain;">
     <em style="font-size: 0.85rem; margin-top: 4px;">
-      TeamUHp official landing page.
     </em>
   </div>
   <div style="display: flex; flex-direction: column;">
     <img src="../img/team-uhp/m3-minor-fixes-2.png"
          style="height: 350px; width: 100%; object-fit: contain;">
     <em style="font-size: 0.85rem; margin-top: 4px;">
-      Saved Projects appear through the toggle filter.
     </em>
   </div>
 </div>
