@@ -83,7 +83,7 @@ In both of the datasets, the number of samples corresponds to the number of webs
   <div>
     <img src="../img/dataset2(3).png"
          style="height: 300px; width: 100%; object-fit: contain; display: block;">
-    <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Best parameters for Decision Tree: {'Criterion': 'Gini'}/em>
+    <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Best parameters for Decision Tree: {'Criterion': 'Gini'}</em>
     <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Best cross-validation accuracy: 0.9549</em>
   </div>
 
