@@ -47,9 +47,9 @@ Among the first major changes I added, I turned many of the basic skeleton mocku
 
 <div style="display: flex; justify-content: center; gap: 12px; margin-top: 12px;">
   <img src="../img/team-uhp/project-list-before.png"
-       style="height: 375px; max-width: 100%; object-fit: contain;">
+       style="height: 375px; max-width: 48%; object-fit: contain;">
   <img src="../img/team-uhp/project-list-after.png"
-       style="height: 375px; max-width: 100%; object-fit: contain;">
+       style="height: 375px; max-width: 48%; object-fit: contain;">
 </div>
 
 <em style="display: block; text-align: center; font-size: 0.85rem;">
@@ -58,9 +58,9 @@ Among the first major changes I added, I turned many of the basic skeleton mocku
 
 <div style="display: flex; justify-content: center; gap: 12px; margin-top: 12px;">
   <img src="../img/team-uhp/project-page-before.png"
-       style="height: 375px; max-width: 100%; object-fit: contain;">
+       style="height: 375px; max-width: 48%; object-fit: contain;">
   <img src="../img/team-uhp/project-page-after.png"
-       style="height: 375px; max-width: 100%; object-fit: contain;">
+       style="height: 375px; max-width: 48%; object-fit: contain;">
 </div>
 
 <em style="display: block; text-align: center; font-size: 0.85rem;">
@@ -69,9 +69,9 @@ Among the first major changes I added, I turned many of the basic skeleton mocku
 
 <div style="display: flex; justify-content: center; gap: 12px; margin-top: 12px;">
   <img src="../img/team-uhp/recruit-before.png"
-       style="height: 375px; max-width: 100%; object-fit: contain;">
+       style="height: 375px; max-width: 48%; object-fit: contain;">
   <img src="../img/team-uhp/recruit-after.png"
-       style="height: 375px; max-width: 100%; object-fit: contain;">
+       style="height: 375px; max-width: 48%; object-fit: contain;">
 </div>
 
 <em style="display: block; text-align: center; font-size: 0.85rem;">
