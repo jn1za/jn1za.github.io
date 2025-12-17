@@ -212,7 +212,7 @@ Nearing the finalization of the project, since I had been involved with a part o
   </div>
 </div>
 
-Part of my tasks also included actively updating the overview, user guide, team display cards, development history, community feedback, and continuous integration sections in the github.io Home Page as the project progressed. I served as the primary editor for these documentations.
+Part of my contributions also included actively updating the overview, user guide, team display cards, development history, community feedback, and continuous integration sections in the github.io Home Page as the project progressed. I served as the primary editor for these documentations.
 
 ## Team Collaboration & Project Management
 <hr>
