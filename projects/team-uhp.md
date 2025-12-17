@@ -28,19 +28,19 @@ summary: "Worked with a group of student developers in ICS314 to create the Team
 </em>
 
 ## All From An Anecdote
-
+<hr>
 It all started from a simple conversation checking in on the first week of the Fall semester. My friend who is studying mechanical engineering happens to tell me about a class he’s taking which is focused on one big project: build a robot that can climb 2 winds of stairs in Holmes Hall, retrieve an egg, and bring it back down within 6 minutes. Unfortunately, he tells me that all of the members of his team are strictly mechanical engineering students, and nobody really knows how to code or has dabbled in robotics to the extent of programming! Their solution? It was agreed that one member of the team be left alone to his own task: learn how to program and make the robot remote-controlled.
 
 For a mechanical engineering student, such a project can be quite a great hands-on experience, but feel very out of scope. In a professional enterprise environment, such tasks would be split to those specific in the area of study, which may include a contractor onboarded for programming, a contractor to provide the ordered hardware, or a consultant to guide the team to progress through what is unfamiliar on their own. If only there was a way for students to gain experience with such collaboration during their student life…
 
 ## TeamUHp! Connecting Students to collaborate on large scale projects.
-
+<hr>
 Many college students want to build real-world experience and strengthen their resumes through hands-on projects. However, the scope and complexity of meaningful and large-scale projects may exceed their current technical skills or confidence. Such a gap makes it difficult for students to initiate or complete projects that truly showcase their abilities. 
 
 TeamUHP! is a platform for students to connect across areas of study by enabling them to upload project postings and recruit collaborators. Whether it’s a class assignment or a passion project, students can find teammates with complementary skills and allow each contributor to play a meaningful role that aligns with their field of study. This medium of collaboration helps students to gain practical experience, build teamwork skills, and add completed projects to their resumes.
 
 ## My Role in TeamUHp!
-
+<hr>
 In the nature of such a project, I was able to experience both the front-end and back-end fields of implementation. A lot of the changes I made dabbled in many different pages, whether it be a global pass at all UI design for the entire application, or the backend-added features that displayed themselves in sections of certain pages. 
 
 Among the first major changes I added, I turned many of the basic skeleton mockups from Milestone 1 into a more fleshed out and standardized web page. To do so, I created a shared "sketches" file to save relevant color hexes, mockup drafts, and other saved aesthetic choices to keep as a resource for the team: See ["TeamUHp Layout/Design Sketches"](https://docs.google.com/presentation/d/1oOsBEic-QJjPBjZlVcT_8FZ7k5hBBjZrkPhcwUM7L6E/edit?slide=id.g3aa0f5c5864_0_0#slide=id.g3aa0f5c5864_0_0). The growth of our project's aesthetic became more fleshed out as the UI developed further:
@@ -217,11 +217,11 @@ Nearing the finalization of the project, since I had been involved with a part o
 Part of my tasks included actively updating the overview, user guide, team display cards, development history, community feedback, and continuous integration sections in the github.io Home Page as the project progressed. I served as the primary editor for these documentations.
 
 ## Team Collaboration & Project Management
-
+<hr>
 This is truly the first time I’ve worked on such a large project, and saw how necessary it was to create such a thing by the contribution of many members. I got to experience what makes project management so essential to achieving the goal, and how explicitly listing of tasks, planning for deliverables, distributing efforts, and effectively documenting it all is so pivotal to succeeding. In no way would I have truly grasped the scale of it all had I not gone through it hands-on in this project, made and corrected the minute mistakes, and reflected on the experience for the better.
 
 ## Building A Project & Building Myself
-
+<hr>
 Working on this project, in a way, fulfilled the mission of the platform itself. I’ve always wanted to make my own app and it be something both beautiful and functional, and I’ve felt that same thing where I can imagine ideas that can really benefit a community, but the scope of such a project seems a little daunting. Having worked on this project, it is like manifesting those plans into something real and usable, and is opening the doors to all the more dreams becoming tangible. 
 
 I wonder if it is because of this that I start to imagine daily life as a set of persistent problems and infinitely, though yet to be, discoverable solutions. There are so many ways I can put these skills to use now beyond a personal project. If I put it into perspective, the modern world is still creating solutions to basic human needs and civilization’s necessities, like biomedical disease detections, long-term sustainability in industrial systems, clean energy and energy-efficiency, and so much more. The fortunate thing about being a student in technology is the idea that there is always an opportunity to be a part of all of that as the world progresses to utilize tech more. When I am able to better my skills and build my experiences, the closer I am to seeing where exactly *my place* is in all of that. 
