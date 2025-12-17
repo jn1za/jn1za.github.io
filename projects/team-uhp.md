@@ -121,7 +121,7 @@ Generally, I had the objective of standardizing all pages in the application to 
   </div>
 </div>
 
-<em style="display: block; text-align: center; font-size: 0.85rem;">
+<em style="display: block; text-align: center; font-size: 0.85rem; margin-top: 12px;">
   (See more images at TeamUHp's home page, or interact directly at our website). 
 </em>
 <br>
