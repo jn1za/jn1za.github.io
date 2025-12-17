@@ -13,9 +13,11 @@ labels:
 summary: "Composed original music for piano students to preform, allowing their imagination for their desired sound to become a real piece, and accompanied vocal students and student bands at live music events."
 --- 
 
-<div class="text-center p-4">
-  <img width="700px" src="../img/piano-acc.png" class="img-thumbnail" >
-  <img width="700px" src="../img/red-carpet-2023.jpg" class="img-thumbnail" >
+<div style="display: flex; justify-content: center; gap: 16px; align-items: flex-start; flex-wrap: wrap; padding: 16px;">
+  <img src="../img/piano-acc.png" 
+       style="height: 400px; object-fit: contain; display: block;">
+  <img src="../img/red-carpet-2023.jpg" 
+       style="height: 400px; object-fit: contain; display: block;">
 </div>
 
 Over the years, students have shared the stage at events like Hawaii Oktoberfest, Hawaiian Brian's, Blue Note Waikiki, 50th-State Fair, Honolulu Food Fest, and more! Students have prepared their original pieces for live performance and rehearsed with other students when colaborating.
