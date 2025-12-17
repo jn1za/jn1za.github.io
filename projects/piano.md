@@ -14,7 +14,8 @@ summary: "Composed original music for piano students to preform, allowing their 
 --- 
 
 <div class="text-center p-4">
-  <img width="800px" src="../img/piano-acc.png" class="img-thumbnail" >
+  <img width="700px" src="../img/piano-acc.png" class="img-thumbnail" >
+  <img width="700px" src="../img/red-carpet-2023.jpg" class="img-thumbnail" >
 </div>
 
 Over the years, students have shared the stage at events like Hawaii Oktoberfest, Hawaiian Brian's, Blue Note Waikiki, 50th-State Fair, Honolulu Food Fest, and more! Students have prepared their original pieces for live performance and rehearsed with other students when colaborating.
