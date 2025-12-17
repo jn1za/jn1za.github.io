@@ -38,6 +38,7 @@ Extensive Feature Details: [“Phishing Websites Features”](https://colab.rese
 In both of the datasets, the number of samples corresponds to the number of websites that were analyzed with a malware analyzer. For each specific attribute (such as having IP address, web traffic, pop up window, etc.), the analyzer assigns that website’s attribute an integer, where -1 means phishing, 0 means suspicious (either phishing or legitimate), and 1 means legitimate. For each website, the overall disposition is given the label “Result” and also uses the same integer assignment classification system. We will be comparing the performance metrics of our classification methods and report both the baseline models’ and optimized models’ accuracy, precision, recall, and F1-score statistics, as well as the gain in the models’ performance metrics after K-fold cross validation optimization. 
 
 ## Modeling & Code
+<hr>
 
 The code in each version is identical, with only `file_url` changed to refer to the respective dataset. Since the data is provided in file format .arff, and not .csv, I imported the arff-module in order to read it. Upon a preview of the dataframe, the values were being displayed as b’-1’, b’0’, and b’1’ formats. Since the values were byte strings, and would have to be decoded, to ensure that each value in the dataset is an integer, I type converted the values to make them all usable as integers. I then display a preview of the data in a dataframe appearing like the ones below:
 
