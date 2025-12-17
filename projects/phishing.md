@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/phish-find.jpg
+image: img/phish-find.png
 title: "Classifying Phishing Websites with Machine Learning"
 date: 2025
 published: true
