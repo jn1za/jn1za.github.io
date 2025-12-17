@@ -47,9 +47,9 @@ Among the first major changes I added, I turned many of the basic skeleton mocku
 
 <div style="display: flex; justify-content: center; gap: 30px; margin-top: 12px;">
   <img src="../img/team-uhp/project-list-before.png"
-       style="height: 375px; max-width: 48%; object-fit: contain;">
+       style="height: 375px; max-width: 48%; object-fit: contain; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
   <img src="../img/team-uhp/project-list-after.png"
-       style="height: 375px; max-width: 48%; object-fit: contain;">
+       style="height: 375px; max-width: 48%; object-fit: contain; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" >
 </div>
 
 <em style="display: block; text-align: center; font-size: 0.85rem;">
@@ -58,9 +58,9 @@ Among the first major changes I added, I turned many of the basic skeleton mocku
 
 <div style="display: flex; justify-content: center; gap: 30px; margin-top: 12px;">
   <img src="../img/team-uhp/project-page-before.png"
-       style="height: 375px; max-width: 48%; object-fit: contain;">
+       style="height: 375px; max-width: 48%; object-fit: contain; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
   <img src="../img/team-uhp/project-page-after.png"
-       style="height: 375px; max-width: 48%; object-fit: contain;">
+       style="height: 375px; max-width: 48%; object-fit: contain; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
 </div>
 
 <em style="display: block; text-align: center; font-size: 0.85rem;">
@@ -69,9 +69,9 @@ Among the first major changes I added, I turned many of the basic skeleton mocku
 
 <div style="display: flex; justify-content: center; gap: 30px; margin-top: 12px;">
   <img src="../img/team-uhp/recruit-before.png"
-       style="height: 375px; max-width: 48%; object-fit: contain;">
+       style="height: 375px; max-width: 48%; object-fit: contain; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
   <img src="../img/team-uhp/recruit-after.png"
-       style="height: 375px; max-width: 48%; object-fit: contain;">
+       style="height: 375px; max-width: 48%; object-fit: contain; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
 </div>
 
 <em style="display: block; text-align: center; font-size: 0.85rem;">
@@ -92,32 +92,32 @@ Generally, I had the objective of standardizing all pages in the application to 
 ">
   <div>
     <img src="../img/team-uhp/opening-page.png"
-         style="height: 350px; width: 100%; object-fit: contain; display: block;">
+         style="height: 350px; width: 100%; object-fit: contain; display: block; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
     <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Individual Opening Pages</em>
   </div>
   <div>
     <img src="../img/team-uhp/application-admin.png"
-         style="height: 350px; width: 100%; object-fit: contain; display: block;">
+         style="height: 350px; width: 100%; object-fit: contain; display: block; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
     <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Application Page</em>
   </div>
   <div>
     <img src="../img/team-uhp/forgot-password.png"
-         style="height: 350px; width: 100%; object-fit: contain; display: block;">
+         style="height: 350px; width: 100%; object-fit: contain; display: block; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
     <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Forgot Username/Password Pages</em>
   </div>
   <div>
     <img src="../img/team-uhp/forgot-password-2.png"
-         style="height: 350px; width: 100%; object-fit: contain; display: block;">
+         style="height: 350px; width: 100%; object-fit: contain; display: block; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
     <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Forgot Username/Password (on Submit)</em>
   </div>
   <div>
     <img src="../img/team-uhp/landing-page.png"
-         style="height: 350px; width: 100%; object-fit: contain; display: block;">
+         style="height: 350px; width: 100%; object-fit: contain; display: block; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
     <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Team UHp official landing page.</em>
   </div>
   <div>
     <img src="../img/team-uhp/helpful-tools-page.png"
-         style="height: 350px; width: 100%; object-fit: contain; display: block;">
+         style="height: 350px; width: 100%; object-fit: contain; display: block; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
     <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Helpful Tools page and external links.</em>
   </div>
 </div>
