@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/team-uhp/TeamUHp-Graphic.png
-title: "TeamUHp! Connecting Students to collaborate on large scale projects."
+title: "TeamUHp! Connecting Students to Collaborate on Large Scale Projects."
 date: 2025
 published: true
 labels:
@@ -10,7 +10,7 @@ labels:
   - Front-End Development
   - Back-end Development
   - Group Project
-summary: "Worked with a group of student developers in ICS314 to create the TeamUHp web application designed for UH students to connect across areas of study by enabling them to upload project postings and recruit collaborators."
+summary: "Worked in a group of peer developers in ICS314 to create the TeamUHp web application designed for UH students to connect across areas of study by enabling them to upload project postings and recruit collaborators."
 --- 
 
 
