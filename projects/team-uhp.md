@@ -126,7 +126,7 @@ Generally, I had the objective of standardizing all pages in the application to 
 </em>
 <br>
 
-After fleshing out many of the UI standardizaiton and initial implementations, I added the bookmark/save projects feature, add/remove contacts feature, and included more diverse skills to select which were also grouped by fields of study. 
+After fleshing out many of the UI standardization and initial implementations, I added the bookmark/save projects feature, add/remove contacts feature, and included more diverse skills to select which were also grouped by fields of study. 
 
 I first implemented the add/remove contacts button to be visible when viewing all other profile pages (besides the current session user). This referenced the `contacts[]` and `contactsOf[]` attributes in the schema, then displayed them on the actual contacts page which was created by another team member.
 
