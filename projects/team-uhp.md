@@ -15,7 +15,7 @@ summary: "Worked with a group of student developers in ICS314 to create the Team
 
 
 
-<img src="../img/team-uhp/TeamUHp-Banner.png" style="display: block; margin: 0 auto;">
+<img src="../img/team-uhp/TeamUHp-Banner.png" style="display: block; margin: 0 auto; width: 100%;">
 <!-- <img src="../img/team-uhp/TeamUHp-Banner-XWide.png"> -->
 
 <em>
