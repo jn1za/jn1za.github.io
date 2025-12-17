@@ -13,12 +13,22 @@ labels:
 summary: "A video publication project to empower high school students by showcasing the jounrey's of Leilehua High School alumni, and the diverse paths to success of these individuals who once walked the same halls."
 ---
 
-<iframe src="https://drive.google.com/file/d/1SqExuTSdFVU2QolmfyK0iF9dCIA74vCg/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe 
+  src="https://drive.google.com/file/d/1SqExuTSdFVU2QolmfyK0iF9dCIA74vCg/preview"
+  width="900"
+  height="575"
+  allow="autoplay"
+  style="display: block; margin: 0 auto;">
+>
+</iframe>
 
-A team of Class of 2023 High School seniors. We bonded together to invite our school's very own alumni to share their stories with the current students of Leilehua High School. This video [yes, that's my voice!] declares our mission was the first video to release prior to each individual interview's release. 
+<br>
+
+Project AIM: A team of Class of 2023 High School seniors. We bonded together to invite our school's very own alumni to share their stories with the current students of Leilehua High School. This video (yes, that's my voiceover!) declares our mission, and was the first video to release prior to each individual interview's video publication. 
 
 ## Project A.I.M.
-###### Leilehua High School Seniors of 2023
+<hr />
+###### *Leilehua High School Seniors of 2023*
 
 At some point before we graduate, we need to create serious future plans. That means deciding whether you’re going to college or not, which colleges to apply for, and what career to pursue. All of this is so that eventually, we can get a good job and build a fulfilling life.
 
