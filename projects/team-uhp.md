@@ -52,7 +52,7 @@ Among the first major changes I added, I turned many of the basic skeleton mocku
        style="height: 375px; max-width: 48%; object-fit: contain; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" >
 </div>
 
-<em style="display: block; text-align: center; font-size: 0.85rem;">
+<em style="display: block; text-align: center; font-size: 0.85rem; margin-top: 8px;">
   Project list page after Milestone 1, and the same page after Milestone 2.
 </em>
 
@@ -63,7 +63,7 @@ Among the first major changes I added, I turned many of the basic skeleton mocku
        style="height: 375px; max-width: 48%; object-fit: contain; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
 </div>
 
-<em style="display: block; text-align: center; font-size: 0.85rem;">
+<em style="display: block; text-align: center; font-size: 0.85rem; margin-top: 8px;">
    Individual project pages after Milestone 1, and the same page after Milestone 2.
 </em>
 
@@ -74,7 +74,7 @@ Among the first major changes I added, I turned many of the basic skeleton mocku
        style="height: 375px; max-width: 48%; object-fit: contain; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
 </div>
 
-<em style="display: block; text-align: center; font-size: 0.85rem;">
+<em style="display: block; text-align: center; font-size: 0.85rem; margin-top: 8px;">
   Recruit for Opening page after Milestone 1, and the same page after Milestone 2.
 </em>
 
