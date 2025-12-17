@@ -16,13 +16,16 @@ summary: "A study I did while taking machine learning at Yonsei University, whic
 
 
 ## Introduction 
+<hr>
 One person is all it takes for a business to collapse under the hand of cyber attack. The most common medium of this is phishing. To protect the company’s confidentiality, integrity, and accessibility of data, cyber defense tools can be implemented into the network and device infrastructure. These can serve many purposes, such as an access gateway, web proxy, or detection system, to name a few. Everyday, the average individual, consumer, and employee alike browse the internet and generate endless data transactions on the worldwide web. To heed off the most common method attack of human exploitation, such tools also exist to classify legitimate, suspicious, and phishing websites through the use of algorithmic and machine learning. 
 
 As a student in the field of technology, I have always been intrigued by the systems we have so intelligently developed, and will continue to outlive us in our time. And as a student experiencing the field of cybersecurity and enthusiastic about the protection of data and the investigation of cybercrime, I find that nobody is ever fully protected from phishing, and by the speed that we can communicate digitally, can be manipulated at any given moment. 
 
 Through the very technology we’ve studied, we can also enhance our protection and awareness of these through machine learning methods that classify malicious vs. legitimate websites. Websites have many attributes that can provide suspicious indicators, and in these datasets from UCI’s Machine Learning Repository, we can analyze how K-Nearest Neighbors (KNN), Support Vector Machine (SVM), and Decision Tree (DT) Classifiers compare in accuracy, precision, recall, and F1-score when classifying websites as legitimate, suspicious, or malicious.
 
+
 ## Datasets
+<hr>
 Dataset 1: [“Website Phishing”](https://archive.ics.uci.edu/dataset/379/website+phishing) (10 attributes, 1355 Samples) 
 Supplementary Article: [“Phishing Attacks and Websites Classification Using Machine Learning and Multiple Datasets (A Comparative Analysis)”] (https://arxiv.org/pdf/2101.02552)
 
@@ -60,12 +63,13 @@ In both of the datasets, the number of samples corresponds to the number of webs
 
 
 ## Results & Discussion
+<hr>
 Overall, Dataset 1 models showed a moderate to accurate performance in overall metrics, while Dataset 2 shows significantly higher scores across the board. Among the models trained with Dataset 1, the optimized SVM outperformed all other models in every scoring. In this dataset, SVM also had the greatest improvement in accuracy by 0.0258 from the optimization, whereas KNN showed no improvement, and the decision tree decreased in accuracy by 0.0259. In the case of the Dataset 1 decision tree models, after optimizing, the model decreased in all metrics from its baseline model’s performance. Though GridSearchCV found the best hyperparameters for the decision tree, this decrease in performance may be attributed to some overfitting of the data, where the model learns the specific patterns in the training set, rather than generalizing underlying patterns in the test set. This highlights the importance of gathering metrics from a model’s baseline performance, and gauging if an optimization may even be an computationally and performance effective approach. 
 
 In light of such findings, Dataset 2 also helps to inform how these results differ, and how accuracy can improve more from using a larger training dataset rather than optimizing models. In Dataset 2, SVM also had a greater improvement than the other models, having an increase in accuracy of 0.0195, whereas KNN and Decision Tree experienced no improvement. In contrast to Dataset 1, Decision Tree performed the best at a high 0.9701 accuracy. Through this, we are able to see how training with much larger data produces far greater accuracy and precision. We are even able to observe that the optimization of these training models may serve little to no improvement and can be computationally expensive, yet baseline models can produce high performing metrics if a larger and more robust dataset is used to train the model. 
 
 ## Conclusion
-
+<hr>
 Conclusion
 Through the analysis of KNN, SVN, and Decision Tree performance with both a smaller sample set (Dataset 1) and a larger sample sent (Dataset 2), we can say that these machine learning techniques are highly effective in aiding to recognize malicious websites, and machine learning models are able to achieve high accuracy to distinguish phishing sites from legitimate ones, with our best model reaching over 97% accuracy. 
 We have also learned that although hyperparameter tuning can optimize some gain in accuracy, as seen in SVM's consistent improvement in both Dataset 1 and Dataset 2, the quantity and quality of the training data itself is often more influential on model performance. This is seen also in the KNN and Decision Tree models, which did not improve in accuracy in either datasets, yet reached substantially higher accuracy in their baseline models when given such a sample as Dataset 2. 
