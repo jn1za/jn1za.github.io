@@ -41,13 +41,15 @@ In both of the datasets, the number of samples corresponds to the number of webs
 
 The code in each version is identical, with only `file_url` changed to refer to the respective dataset. Since the data is provided in file format .arff, and not .csv, I imported the arff-module in order to read it. Upon a preview of the dataframe, the values were being displayed as b’-1’, b’0’, and b’1’ formats. Since the values were byte strings, and would have to be decoded, to ensure that each value in the dataset is an integer, I type converted the values to make them all usable as integers. I then display a preview of the data in a dataframe appearing like the ones below:
 
-<img src="../img/dataset1(repository).png" style="display: block">
-    <em style="font-size: 0.85rem; display: block; margin-top: 4px;">First 5 Rows of Dataset 1. Each of the 10 attributes are displayed by column.</em>
+<div style="text-align: center; margin-bottom: 16px;">
+  <img src="../img/dataset1(repository).png" style="display: block; margin: 0 auto;">
+  <em style="font-size: 0.85rem; display: block; margin-top: 4px;">First 5 Rows of Dataset 1. Each of the 10 attributes are displayed by column.</em>
+</div>
 
-<img src="../img/dataset2(repository).png" style="display: block">
-    <em style="font-size: 0.85rem; display: block; margin-top: 4px;">First 5 Rows of Dataset 2. The 31 attributes extend beyond the image above.</em>
-
-<br>
+<div style="text-align: center; margin-bottom: 16px;">
+  <img src="../img/dataset2(repository).png" style="display: block; margin: 0 auto;">
+  <em style="font-size: 0.85rem; display: block; margin-top: 4px;">First 5 Rows of Dataset 2. The 31 attributes extend beyond the image above.</em>
+</div>
 
 <strong>Preprocessing</strong><br>
 Setting the target, I used all attributes in the dataset as my features (X) and set my target as Result (y). Continuing with the preprocessing, I split my training and testing data in a 80%-20% split respectively, using `random_state` = 15 for reproducibility. I then scaled the data using a standard scaler. This gives us 1082 training samples and 271 test samples for Dataset 1, and 8844 training samples and 2211 test samples for Dataset 2. 
