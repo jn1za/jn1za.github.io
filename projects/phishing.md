@@ -39,25 +39,26 @@ In both of the datasets, the number of samples corresponds to the number of webs
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
+  row-gap: 12px;
 ">
 
   <!-- Row 1 -->
   <img src="../img/dataset1(1).png"
-       style="height: 280px; width: 100%; object-fit: contain; display: block;">
+       style="height: 350px; width: 100%; object-fit: contain; display: block;">
   <img src="../img/dataset2(1).png"
-       style="height: 280px; width: 100%; object-fit: contain; display: block;">
+       style="height: 350px; width: 100%; object-fit: contain; display: block;">
 
   <!-- Row 2 -->
   <img src="../img/dataset1(2).png"
-       style="height: 280px; width: 100%; object-fit: contain; display: block;">
+       style="height: 350px; width: 100%; object-fit: contain; display: block;">
   <img src="../img/dataset2(2).png"
-       style="height: 280px; width: 100%; object-fit: contain; display: block;">
+       style="height: 350px; width: 100%; object-fit: contain; display: block;">
 
   <!-- Row 3 -->
   <img src="../img/dataset1(3).png"
-       style="height: 280px; width: 100%; object-fit: contain; display: block;">
+       style="height: 350px; width: 100%; object-fit: contain; display: block;">
   <img src="../img/dataset2(3).png"
-       style="height: 280px; width: 100%; object-fit: contain; display: block;">
+       style="height: 350px; width: 100%; object-fit: contain; display: block;">
 
 </div>
 
