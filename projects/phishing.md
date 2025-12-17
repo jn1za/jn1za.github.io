@@ -32,33 +32,30 @@ Extensive Feature Details: [“Phishing Websites Features”](https://docs.googl
 
 In both of the datasets, the number of samples corresponds to the number of websites that were analyzed with a malware analyzer. For each specific attribute (such as having IP address, web traffic, pop up window, etc.), the analyzer assigns that website’s attribute an integer, where -1 means phishing, 0 means suspicious (either phishing or legitimate), and 1 means legitimate. For each website, the overall disposition is given the label “Result” and also uses the same integer assignment classification system. We will be comparing the performance metrics of our classification methods and report both the baseline models’ and optimized models’ accuracy, precision, recall, and F1-score statistics, as well as the gain in the models’ performance metrics after K-fold cross validation optimization. 
 
-<div class="container-fluid">
-  <div class="row mb-3">
-    <div class="col text-center">
-      <img src="../img/dataset1(1).png" style="height: 260px; object-fit: contain;">
-    </div>
-    <div class="col text-center">
-      <img src="../img/dataset2(1).png" style="height: 260px; object-fit: contain;">
-    </div>
-  </div>
+<div style="
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+">
 
-  <div class="row mb-3">
-    <div class="col text-center">
-      <img src="../img/dataset1(2).png" style="height: 260px; object-fit: contain;">
-    </div>
-    <div class="col text-center">
-      <img src="../img/dataset2(2).png" style="height: 260px; object-fit: contain;">
-    </div>
-  </div>
+  <!-- Row 1 -->
+  <img src="../img/dataset1(1).png"
+       style="height: 280px; width: 100%; object-fit: contain; display: block;">
+  <img src="../img/dataset2(1).png"
+       style="height: 280px; width: 100%; object-fit: contain; display: block;">
 
-  <div class="row">
-    <div class="col text-center">
-      <img src="../img/dataset1(3).png" style="height: 260px; object-fit: contain;">
-    </div>
-    <div class="col text-center">
-      <img src="../img/dataset2(3).png" style="height: 260px; object-fit: contain;">
-    </div>
-  </div>
+  <!-- Row 2 -->
+  <img src="../img/dataset1(2).png"
+       style="height: 280px; width: 100%; object-fit: contain; display: block;">
+  <img src="../img/dataset2(2).png"
+       style="height: 280px; width: 100%; object-fit: contain; display: block;">
+
+  <!-- Row 3 -->
+  <img src="../img/dataset1(3).png"
+       style="height: 280px; width: 100%; object-fit: contain; display: block;">
+  <img src="../img/dataset2(3).png"
+       style="height: 280px; width: 100%; object-fit: contain; display: block;">
+
 </div>
 
 
