@@ -24,14 +24,48 @@ Through the very technology we’ve studied, we can also enhance our protection 
 
 ## Datasets
 <hr>
-Dataset 1: [“Website Phishing”](https://archive.ics.uci.edu/dataset/379/website+phishing) (10 attributes, 1355 Samples) 
-Supplementary Article: [“Phishing Attacks and Websites Classification Using Machine Learning and Multiple Datasets (A Comparative Analysis)”] (https://arxiv.org/pdf/2101.02552)
+Dataset 1: [“Website Phishing”](https://archive.ics.uci.edu/dataset/379/website+phishing). (10 attributes, 1355 Samples) 
+Supplementary Article: [“Phishing Attacks and Websites Classification Using Machine Learning and Multiple Datasets (A Comparative Analysis)”] (https://arxiv.org/pdf/2101.02552).
 
-Dataset 2: [“Phishing Websites”](https://archive.ics.uci.edu/dataset/327/phishing+websites) (31 attributes, 11055 Samples)
+Link to My Jupyter Notebook: [(Dataset 1) IML Final Project](https://colab.research.google.com/drive/1xorhyJYB2h0N7DAdDyClcdOWz4StjwD9?authuser=1#scrollTo=Ke-RDGm-0w68)
+
+Dataset 2: [“Phishing Websites”](https://archive.ics.uci.edu/dataset/327/phishing+websites). (31 attributes, 11055 Samples)
 Supplementary Article: [“An Assessment of Features Related to Phishing Websites using an Automated Technique”](https://ieeexplore.ieee.org/document/6470857)
-Extensive Feature Details: [“Phishing Websites Features”](https://docs.google.com/document/d/18UR797f4JmD1AYxEy-Os7mQvf4jvhKo2/edit)
+Extensive Feature Details: [“Phishing Websites Features”](https://colab.research.google.com/drive/1xorhyJYB2h0N7DAdDyClcdOWz4StjwD9?authuser=1#scrollTo=KEQKnRyJttz2)
+
+Link to My Jupyter Notebook: [(Dataset 2) IML Final Project](https://colab.research.google.com/drive/1wTGZ3TDbdnbiPudeV6TCgEJVr0IKzj9F?authuser=1#scrollTo=F0CUcNn_JfUd)
 
 In both of the datasets, the number of samples corresponds to the number of websites that were analyzed with a malware analyzer. For each specific attribute (such as having IP address, web traffic, pop up window, etc.), the analyzer assigns that website’s attribute an integer, where -1 means phishing, 0 means suspicious (either phishing or legitimate), and 1 means legitimate. For each website, the overall disposition is given the label “Result” and also uses the same integer assignment classification system. We will be comparing the performance metrics of our classification methods and report both the baseline models’ and optimized models’ accuracy, precision, recall, and F1-score statistics, as well as the gain in the models’ performance metrics after K-fold cross validation optimization. 
+
+## Modeling & Code
+
+The code in each version is identical, with only `file_url` changed to refer to the respective dataset. Since the data is provided in file format .arff, and not .csv, I imported the arff-module in order to read it. Upon a preview of the dataframe, the values were being displayed as b’-1’, b’0’, and b’1’ formats. Since the values were byte strings, and would have to be decoded, to ensure that each value in the dataset is an integer, I type converted the values to make them all usable as integers. I then display a preview of the data in a dataframe appearing like the ones below:
+
+<img src="../img/dataset1(repository).png" style="display: block">
+    <em style="font-size: 0.85rem; display: block; margin-top: 4px;">First 5 Rows of Dataset 1. Each of the 10 attributes are displayed by column.</em>
+
+<img src="../img/dataset2(repository).png" style="display: block">
+    <em style="font-size: 0.85rem; display: block; margin-top: 4px;">First 5 Rows of Dataset 2. The 31 attributes extend beyond the image above.</em>
+
+<br>
+
+<strong>Preprocessing</strong><br>
+Setting the target, I used all attributes in the dataset as my features (X) and set my target as Result (y). Continuing with the preprocessing, I split my training and testing data in a 80%-20% split respectively, using `random_state` = 15 for reproducibility. I then scaled the data using a standard scaler. This gives us 1082 training samples and 271 test samples for Dataset 1, and 8844 training samples and 2211 test samples for Dataset 2. 
+
+<strong>Selecting Training Models</strong><br>
+For our classifiers, I selected K-Nearest Neighbors (KNN), Support Vector Machine (SVM), and Decision Tree (DT), as the models to train in my project. I selected these as the datasets are labeled, and these methods are supervised learning where the results can be used against the labeled result to measure performance. 
+
+<strong>Baseline Metrics</strong><br>
+The first models to train are the baseline models, not yet optimized. I trained a KNN model, SVM model, and decision tree model, and reported the accuracy, precision, recall, and F1-score metrics for each, then coded graph inputs to better express this information. The baseline metrics are also included in the final results table in the below section. 
+
+<strong>Optimizing K-Nearest Neighbors (KNN)</strong><br>
+Now to optimize, I utilized GridSearchCV to find the best hyperparameters for each classifier. For KNN, I set `param_grid` to try k-values 3, 5, 7, 9, 11, and 13, stopping around 13 as performance with KNN tends to significantly drop to 0 after using a higher number of neighbors. I generated a split to show this relationship, similar to the graph we learned to make in Assignment 1. The loss in accuracy is evident in the sudden slope down after k=11, and finds the best accuracy when k=7, as highlighted by the red star symbol. Using the calculated best parameters, I trained the KNN model and used it to make predictions on the test set. These performance metrics are obtained in a final table comparing all performances. 
+
+<strong>Optimizing Support Vector Machine (SVM)</strong><br>
+To optimize the SVM model, I set the `param_grid` to calculate the best hyperparameters between linear and RBF kernel, C value of 0.1, 1, and 10, and a gamma of scale or auto that would produce the highest accuracy. The best parameters were found to be: C-value of 10, gamma in auto, and an RBF kernel (non-linear). I then trained the SVM to optimize and tested it to make predictions on the test set. 	 
+
+<strong>Optimizing Decision Tree (DT)</strong><br>
+Finally, to optimize the decision tree, I set the `param_grid` to calculate the best criterion between gini or entropy, and some max depth sifting through 3, 5, 7, 10, then ultimately unbounded. In retrospect, this may be why this section of my code takes around two minutes to output when executing it with the large Dataset 2. The hyperparameters which I used to optimize the DT model in dataset 1 are using entropy with a max depth of 7, and I generated a decision tree visualization similar to our Assignment 4, where we introduced decision trees. I then used an optimized model to make predictions on the test set. 
 
 <div style="
   display: grid;
