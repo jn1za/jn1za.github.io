@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/aim.png
+image: img/aim-climbing.png
 title: "Alumni Inspiring & Motivating (AIM)"
 date: 2023
 published: true
