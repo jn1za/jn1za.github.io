@@ -43,12 +43,12 @@ In both of the datasets, the number of samples corresponds to the number of webs
 The code in each version is identical, with only `file_url` changed to refer to the respective dataset. Since the data is provided in file format .arff, and not .csv, I imported the arff-module in order to read it. Upon a preview of the dataframe, the values were being displayed as b’-1’, b’0’, and b’1’ formats. Since the values were byte strings, and would have to be decoded, to ensure that each value in the dataset is an integer, I type converted the values to make them all usable as integers. I then display a preview of the data in a dataframe appearing like the ones below:
 
 <div style="text-align: center; margin-bottom: 16px;">
-  <img src="../img/dataset1(repository).png" style="display: block; margin: 0 auto; width: 85%;">
+  <img src="../img/dataset1(repository).png" style="display: block; margin: 0 auto; width: 75%;">
   <em style="font-size: 0.85rem; display: block; margin-top: 4px;">First 5 Rows of Dataset 1. Each of the 10 attributes are displayed by column.</em>
 </div>
 
 <div style="text-align: center; margin-bottom: 16px;">
-  <img src="../img/dataset2(repository).png" style="display: block; margin: 0 auto; width: 85%;">
+  <img src="../img/dataset2(repository).png" style="display: block; margin: 0 auto; width: 75%;">
   <em style="font-size: 0.85rem; display: block; margin-top: 4px;">First 5 Rows of Dataset 2. The 31 attributes extend beyond the image above.</em>
 </div>
 
