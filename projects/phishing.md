@@ -32,10 +32,25 @@ Extensive Feature Details: [“Phishing Websites Features”](https://docs.googl
 
 In both of the datasets, the number of samples corresponds to the number of websites that were analyzed with a malware analyzer. For each specific attribute (such as having IP address, web traffic, pop up window, etc.), the analyzer assigns that website’s attribute an integer, where -1 means phishing, 0 means suspicious (either phishing or legitimate), and 1 means legitimate. For each website, the overall disposition is given the label “Result” and also uses the same integer assignment classification system. We will be comparing the performance metrics of our classification methods and report both the baseline models’ and optimized models’ accuracy, precision, recall, and F1-score statistics, as well as the gain in the models’ performance metrics after K-fold cross validation optimization. 
 
-<div>
-  <img class="img-fluid" src="../img/dataset2(1).png" style="display: inline-block; width: 30%; margin-right: 1%;">
-  <img class="img-fluid" src="../img/dataset2(2).png" style="display: inline-block; width: 26%; margin-right: 1%;">
-  <img class="img-fluid" src="../img/dataset2(3).png" style="display: inline-block; width: 38%;">
+
+<div style="display: flex; justify-content: center; gap: 0.1%;">
+  <img src="../img/dataset1(1).png"
+       style="height: 200px; width: 30%; object-fit: contain;">
+  <img src="../img/dataset1(2).png"
+       style="height: 200px; width: 26%; object-fit: contain;">
+  <img src="../img/dataset1(3).png"
+       style="height: 200px; width: 38%; object-fit: contain;">
+</div>
+
+<br>
+
+<div style="display: flex; justify-content: center; gap: 0.1%;">
+  <img src="../img/dataset2(1).png"
+       style="height: 200px; width: 30%; object-fit: contain;">
+  <img src="../img/dataset2(2).png"
+       style="height: 200px; width: 26%; object-fit: contain;">
+  <img src="../img/dataset2(3).png"
+       style="height: 200px; width: 38%; object-fit: contain;">
 </div>
 
 ## Results & Discussion
