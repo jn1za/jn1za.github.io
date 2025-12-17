@@ -38,11 +38,13 @@ In both of the datasets, the number of samples corresponds to the number of webs
   grid-template-columns: 1fr 1fr;
   width: 100%;
   row-gap: 12px;
+  text-align: center;
+  margin-bottom: 12px;
 ">
 
   <!-- Column headers -->
-  *Dataset 1*
-  *Dataset 2*
+  <em>Dataset 1</em>
+  <em>Dataset 2</em>
 
   <!-- Row 1 -->
   <img src="../img/dataset1(1).png"
@@ -65,6 +67,7 @@ In both of the datasets, the number of samples corresponds to the number of webs
 </div>
 
 <br>
+
 ## Results & Discussion
 <hr>
 Overall, Dataset 1 models showed a moderate to accurate performance in overall metrics, while Dataset 2 shows significantly higher scores across the board. Among the models trained with Dataset 1, the optimized SVM outperformed all other models in every scoring. In this dataset, SVM also had the greatest improvement in accuracy by 0.0258 from the optimization, whereas KNN showed no improvement, and the decision tree decreased in accuracy by 0.0259. In the case of the Dataset 1 decision tree models, after optimizing, the model decreased in all metrics from its baseline model’s performance. Though GridSearchCV found the best hyperparameters for the decision tree, this decrease in performance may be attributed to some overfitting of the data, where the model learns the specific patterns in the training set, rather than generalizing underlying patterns in the test set. This highlights the importance of gathering metrics from a model’s baseline performance, and gauging if an optimization may even be an computationally and performance effective approach. 
