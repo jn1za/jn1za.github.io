@@ -13,6 +13,8 @@ labels:
 summary: "A video publication project to empower high school students by showcasing the jounrey's of Leilehua High School alumni, and the diverse paths to success of these individuals who once walked the same halls."
 ---
 
+<br>
+
 <iframe 
   src="https://drive.google.com/file/d/1SqExuTSdFVU2QolmfyK0iF9dCIA74vCg/preview"
   width="900"
