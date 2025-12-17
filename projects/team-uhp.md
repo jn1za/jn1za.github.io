@@ -33,7 +33,7 @@ It all started from a simple conversation checking in on the first week of the F
 
 For a mechanical engineering student, such a project can be quite a great hands-on experience, but feel very out of scope. In a professional enterprise environment, such tasks would be split to those specific in the area of study, which may include a contractor onboarded for programming, a contractor to provide the ordered hardware, or a consultant to guide the team to progress through what is unfamiliar on their own. If only there was a way for students to gain experience with such collaboration during their student life…
 
-## TeamUHp! Connecting Students to collaborate on large scale projects.
+## Meet TeamUHp!
 <hr>
 Many college students want to build real-world experience and strengthen their resumes through hands-on projects. However, the scope and complexity of meaningful and large-scale projects may exceed their current technical skills or confidence. Such a gap makes it difficult for students to initiate or complete projects that truly showcase their abilities. 
 
