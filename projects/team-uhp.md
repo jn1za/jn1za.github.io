@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/TeamUHp-Graphic.png
+image: img/team-uhp/TeamUHp-Graphic.png
 title: "TeamUHp! Connecting Students to collaborate on large scale projects."
 date: 2025
 published: true
@@ -215,6 +215,8 @@ Nearing the finalization of the project, since I had been involved with a part o
     </em>
   </div>
 </div>
+
+Part of my tasks included actively updating the overview, user guide, team display cards, development history, community feedback, and continuous integration sections in the github.io Home Page as the project progressed. I served as the primary editor for these documentations.
 
 ## Team Collaboration & Project Management
 
