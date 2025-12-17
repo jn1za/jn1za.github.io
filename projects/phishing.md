@@ -86,12 +86,12 @@ Finally, to optimize the decision tree, I set the `param_grid` to calculate the 
   <div>
     <img src="../img/dataset1(1).png"
          style="height: 350px; width: 100%; object-fit: contain; display: block;">
-    <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Overall Results including SVM statistics</em>
+    <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Final Results including SVM statistics</em>
   </div>
   <div>
     <img src="../img/dataset2(1).png"
          style="height: 350px; width: 100%; object-fit: contain; display: block;">
-    <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Overall Results including SVM statistics</em>
+    <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Final Results including SVM statistics</em>
   </div>
 
   <!-- Row 2 -->
