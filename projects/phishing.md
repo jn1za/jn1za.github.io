@@ -40,19 +40,16 @@ In both of the datasets, the number of samples corresponds to the number of webs
   width: 100%;
 ">
 
-  <!-- Row 1 -->
   <img src="../img/dataset1(1).png"
        style="height: 260px; object-fit: contain;">
   <img src="../img/dataset2(1).png"
        style="height: 260px; object-fit: contain;">
 
-  <!-- Row 2 -->
   <img src="../img/dataset1(2).png"
        style="height: 260px; object-fit: contain;">
   <img src="../img/dataset2(2).png"
        style="height: 260px; object-fit: contain;">
 
-  <!-- Row 3 -->
   <img src="../img/dataset1(3).png"
        style="height: 260px; object-fit: contain;">
   <img src="../img/dataset2(3).png"
