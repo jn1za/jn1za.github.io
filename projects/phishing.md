@@ -47,24 +47,48 @@ In both of the datasets, the number of samples corresponds to the number of webs
   <em>Dataset 2</em>
 
   <!-- Row 1 -->
-  <img src="../img/dataset1(1).png"
-       style="height: 350px; width: 100%; object-fit: contain; display: block;">
-  <img src="../img/dataset2(1).png"
-       style="height: 350px; width: 100%; object-fit: contain; display: block;">
+  <div>
+    <img src="../img/dataset1(1).png"
+         style="height: 350px; width: 100%; object-fit: contain; display: block;">
+    <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Overall Results including SVM statistics</em>
+  </div>
+  <div>
+    <img src="../img/dataset2(1).png"
+         style="height: 350px; width: 100%; object-fit: contain; display: block;">
+    <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Overall Results including SVM statistics</em>
+  </div>
 
   <!-- Row 2 -->
-  <img src="../img/dataset1(2).png"
-       style="height: 350px; width: 100%; object-fit: contain; display: block;">
-  <img src="../img/dataset2(2).png"
-       style="height: 350px; width: 100%; object-fit: contain; display: block;">
+  <div>
+    <img src="../img/dataset1(2).png"
+         style="height: 350px; width: 100%; object-fit: contain; display: block;">
+    <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Best parameters for KNN: {'n_neighbors': 7}</em>
+    <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Best cross-validation accuracy: 0.8669
+</em>
+  </div>
+  <div>
+    <img src="../img/dataset2(2).png"
+         style="height: 350px; width: 100%; object-fit: contain; display: block;">
+    <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Best parameters for KNN: {'n_neighbors': 3}</em>
+    <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Best cross-validation accuracy: 0.9396</em>
+  </div>
 
   <!-- Row 3 -->
-  <img src="../img/dataset1(3).png"
-       style="height: 300px; width: 100%; object-fit: contain; display: block;">
-  <img src="../img/dataset2(3).png"
-       style="height: 300px; width: 100%; object-fit: contain; display: block;">
+  <div>
+    <img src="../img/dataset1(3).png"
+         style="height: 300px; width: 100%; object-fit: contain; display: block;">
+    <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Best parameters for Decision Tree: {'Criterion': 'Entropy'}</em>
+    <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Best cross-validation accuracy: 0.8993</em>
+  </div>
+  <div>
+    <img src="../img/dataset2(3).png"
+         style="height: 300px; width: 100%; object-fit: contain; display: block;">
+    <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Best parameters for Decision Tree: {'Criterion': 'Gini'}/em>
+    <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Best cross-validation accuracy: 0.9549</em>
+  </div>
 
 </div>
+
 
 ## Results & Discussion
 <hr>
