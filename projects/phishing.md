@@ -25,15 +25,15 @@ Through the very technology we’ve studied, we can also enhance our protection 
 ## Datasets
 <hr>
 Dataset 1: [“Website Phishing”](https://archive.ics.uci.edu/dataset/379/website+phishing). (10 attributes, 1355 Samples) 
-Supplementary Article: [“Phishing Attacks and Websites Classification Using Machine Learning and Multiple Datasets (A Comparative Analysis)”] (https://arxiv.org/pdf/2101.02552).
+Supplementary Article: [“Phishing Attacks and Websites Classification Using Machine Learning and Multiple Datasets (A Comparative Analysis)”](https://arxiv.org/pdf/2101.02552).
 
-Link to My Jupyter Notebook: [(Dataset 1) IML Final Project](https://colab.research.google.com/drive/1xorhyJYB2h0N7DAdDyClcdOWz4StjwD9?authuser=1#scrollTo=Ke-RDGm-0w68)
+<strong>Link to My Jupyter Notebook: [(Dataset 1) IML Final Project](https://colab.research.google.com/drive/1xorhyJYB2h0N7DAdDyClcdOWz4StjwD9?authuser=1#scrollTo=Ke-RDGm-0w68)</strong>
 
 Dataset 2: [“Phishing Websites”](https://archive.ics.uci.edu/dataset/327/phishing+websites). (31 attributes, 11055 Samples)
 Supplementary Article: [“An Assessment of Features Related to Phishing Websites using an Automated Technique”](https://ieeexplore.ieee.org/document/6470857)
 Extensive Feature Details: [“Phishing Websites Features”](https://colab.research.google.com/drive/1xorhyJYB2h0N7DAdDyClcdOWz4StjwD9?authuser=1#scrollTo=KEQKnRyJttz2)
 
-Link to My Jupyter Notebook: [(Dataset 2) IML Final Project](https://colab.research.google.com/drive/1wTGZ3TDbdnbiPudeV6TCgEJVr0IKzj9F?authuser=1#scrollTo=F0CUcNn_JfUd)
+<strong>Link to My Jupyter Notebook: [(Dataset 2) IML Final Project](https://colab.research.google.com/drive/1wTGZ3TDbdnbiPudeV6TCgEJVr0IKzj9F?authuser=1#scrollTo=F0CUcNn_JfUd)</strong>
 
 In both of the datasets, the number of samples corresponds to the number of websites that were analyzed with a malware analyzer. For each specific attribute (such as having IP address, web traffic, pop up window, etc.), the analyzer assigns that website’s attribute an integer, where -1 means phishing, 0 means suspicious (either phishing or legitimate), and 1 means legitimate. For each website, the overall disposition is given the label “Result” and also uses the same integer assignment classification system. We will be comparing the performance metrics of our classification methods and report both the baseline models’ and optimized models’ accuracy, precision, recall, and F1-score statistics, as well as the gain in the models’ performance metrics after K-fold cross validation optimization. 
 
