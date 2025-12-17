@@ -169,7 +169,7 @@ Another major change was in adding a more robust set of skills to the `Skills` e
 
 <div style="display: flex; justify-content: center; gap: 12px; margin-top: 12px;">
   <img src="../img/team-uhp/sheet-skills.png"
-       style="height: 375px; max-width: 100%; object-fit: contain; border: 1px solid #ccc; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.12); box-sizing: border-box;">
+       style="margin-bottom: 12px; height: 375px; max-width: 100%; object-fit: contain; border: 1px solid #ccc; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.12); box-sizing: border-box;">
 </div>
 
 After including all skills into the general skills enum, I grouped them by created a helper file typescript file in the `utilities` library so that certain fields of study could be selected in the many pages. Part of this issue was also implementing the areas in which this would be used, and so I implemented the feature on all of the pages where selection is included, such as the Add/Edit Opening and Edit Profile forms. Skills can be added nondiscriminately of their respective fields of study, so I also included a summary of all selections to view/remove them.
