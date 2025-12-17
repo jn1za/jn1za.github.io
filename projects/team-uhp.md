@@ -130,11 +130,11 @@ After fleshing out many of the UI standardizaiton and initial implementations, I
 
 I first implemented the add/remove contacts button to be visible when viewing all other profile pages (besides the current session user). This referenced the `contacts[]` and `contactsOf[]` attributes in the schema, then displayed them on the actual contacts page which was created by another team member.
 
-<div style="display: flex; justify-content: center; gap: 6px; margin-top: 12px auto;">
+<div style="display: flex; justify-content: center; gap: 12px; margin-top: 12px;">
   <img src="../img/team-uhp/add-contact.png"
-       style="height: 325px; max-width: 100%; object-fit: contain; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+       style="height: 325px; max-width: 48%; object-fit: contain; border: 1px solid #ccc; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.12); box-sizing: border-box;">
   <img src="../img/team-uhp/remove-contact.png"
-       style="height: 325px; max-width: 100%; object-fit: contain; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+       style="height: 325px; max-width: 48%; object-fit: contain; border: 1px solid #ccc; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.12); box-sizing: border-box;">
 </div>
 
 <em style="display: block; text-align: center; font-size: 0.85rem;">
