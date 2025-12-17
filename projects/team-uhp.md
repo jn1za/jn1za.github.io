@@ -45,7 +45,7 @@ In the nature of such a project, I was able to experience both the front-end and
 
 Among the first major changes I added, I turned many of the basic skeleton mockups from Milestone 1 into a more fleshed out and standardized web page. To do so, I created a shared "sketches" file to save relevant color hexes, mockup drafts, and other saved aesthetic choices to keep as a resource for the team: See ["TeamUHp Layout/Design Sketches"](https://docs.google.com/presentation/d/1oOsBEic-QJjPBjZlVcT_8FZ7k5hBBjZrkPhcwUM7L6E/edit?slide=id.g3aa0f5c5864_0_0#slide=id.g3aa0f5c5864_0_0). The growth of our project's aesthetic became more fleshed out as the UI developed further:
 
-<div style="display: flex; justify-content: center; gap: 12px; margin-top: 12px;">
+<div style="display: flex; justify-content: center; gap: 17px; margin-top: 12px;">
   <img src="../img/team-uhp/project-list-before.png"
        style="height: 375px; max-width: 48%; object-fit: contain;">
   <img src="../img/team-uhp/project-list-after.png"
@@ -56,7 +56,7 @@ Among the first major changes I added, I turned many of the basic skeleton mocku
   Project list page after Milestone 1, and the same page after Milestone 2.
 </em>
 
-<div style="display: flex; justify-content: center; gap: 12px; margin-top: 12px;">
+<div style="display: flex; justify-content: center; gap: 17px; margin-top: 12px;">
   <img src="../img/team-uhp/project-page-before.png"
        style="height: 375px; max-width: 48%; object-fit: contain;">
   <img src="../img/team-uhp/project-page-after.png"
@@ -67,7 +67,7 @@ Among the first major changes I added, I turned many of the basic skeleton mocku
    Individual project pages after Milestone 1, and the same page after Milestone 2.
 </em>
 
-<div style="display: flex; justify-content: center; gap: 12px; margin-top: 12px;">
+<div style="display: flex; justify-content: center; gap: 17px; margin-top: 12px;">
   <img src="../img/team-uhp/recruit-before.png"
        style="height: 375px; max-width: 48%; object-fit: contain;">
   <img src="../img/team-uhp/recruit-after.png"
