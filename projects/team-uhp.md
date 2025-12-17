@@ -133,9 +133,9 @@ I first implemented the add/remove contacts button to be visible when viewing al
 
 <div style="display: flex; justify-content: center; gap: 6px; margin-top: 12px auto;">
   <img src="../img/team-uhp/add-contact.png"
-       style="height: 325px; max-width: 100%; object-fit: contain;">
+       style="height: 325px; max-width: 100%; object-fit: contain; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
   <img src="../img/team-uhp/remove-contact.png"
-       style="height: 325px; max-width: 100%; object-fit: contain;">
+       style="height: 325px; max-width: 100%; object-fit: contain; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
 </div>
 
 <em style="display: block; text-align: center; font-size: 0.85rem;">
@@ -156,12 +156,12 @@ I also added new attributes in relation to the database schema to track saved pr
 ">
   <div>
     <img src="../img/team-uhp/saved-project.png"
-         style="height: 350px; width: 100%; object-fit: contain; display: block;">
+         style="height: 350px; width: 100%; object-fit: contain; display: block; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
     <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Team UHp official landing page.</em>
   </div>
   <div>
     <img src="../img/team-uhp/filter-saved.png"
-         style="height: 350px; width: 100%; object-fit: contain; display: block;">
+         style="height: 350px; width: 100%; object-fit: contain; display: block; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
     <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Saved Projects appear through the toggle filter.</em>
   </div>
 </div>
@@ -170,21 +170,21 @@ Another major change was in adding a more robust set of skills to the `Skills` e
 
 <div style="display: flex; justify-content: center; gap: 6px; margin-top: 12px;">
   <img src="../img/team-uhp/sheet-skills.png"
-    style="height: 375px; max-width: 100%; object-fit: contain;">
+    style="height: 375px; max-width: 100%; object-fit: contain; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
 </div>
 
 After including all skills into the general skills enum, I grouped them by created a helper file typescript file in the `utilities` library so that certain fields of study could be selected in the many pages. Part of this issue was also implementing the areas in which this would be used, and so I implemented the feature on all of the pages where selection is included, such as the Add/Edit Opening and Edit Profile forms. Skills can be added nondiscriminately of their respective fields of study, so I also included a summary of all selections to view/remove them.
 
 
 <div style="text-align: center; margin-bottom: 16px;">
-  <img src="../img/team-uhp/skills-select-section.png" style="display: block; margin: 0 auto; width: 70%;">
+  <img src="../img/team-uhp/skills-select-section.png" style="display: block; margin: 0 auto; width: 70%; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
   <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Field dropdown available to select skills. </em>
 </div>
 
 Additionally, I updated the initial search function by skill select fron all skills to a selection narrowed by field, to which multiple tags could be applied in the filter, and results would display for all of any of the tags applied:
 
 <div style="text-align: center; margin-bottom: 16px;">
-  <img src="../img/team-uhp/search-filter.png" style="display: block; margin: 0 auto; width: 70%;">
+  <img src="../img/team-uhp/search-filter.png" style="display: block; margin: 0 auto; width: 70%; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
   <em style="font-size: 0.85rem; display: block; margin-top: 4px;">Results populating by skill tags added to the filter.</em>
 </div>
 
@@ -202,13 +202,13 @@ Nearing the finalization of the project, since I had been involved with a part o
 ">
   <div style="display: flex; flex-direction: column;">
     <img src="../img/team-uhp/m3-minor-fixes-1.png"
-         style="height: 350px; width: 100%; object-fit: contain;">
+         style="height: 350px; width: 100%; object-fit: contain; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
     <em style="font-size: 0.85rem; margin-top: 4px;">
     </em>
   </div>
   <div style="display: flex; flex-direction: column;">
     <img src="../img/team-uhp/m3-minor-fixes-2.png"
-         style="height: 350px; width: 100%; object-fit: contain;">
+         style="height: 350px; width: 100%; object-fit: contain; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
     <em style="font-size: 0.85rem; margin-top: 4px;">
     </em>
   </div>
